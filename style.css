@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 12px 150px;
+}
+
+.container > h2 {
+    text-align: center;
+}
+
+.container-profile {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+.left-side {
+    display: flex;
+    column-gap: 80px;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100%;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-data .name-role {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.buttons {
+    display: flex;
+    column-gap: 12px;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buttons #editBtn {
+    color: aliceblue;
+    background-color: rgb(25, 41, 215);
+    border: 1px solid rgb(25, 41, 215);
+    box-shadow: 0 0 10px rgba(144, 10, 232, 0.3);;
+}
+
+.buttons #resumeBtn {
+    color: green;
+    border: 1px solid green;
+}
+
+.buttons #editBtn:hover, .buttons #resumeBtn:hover, .button-submit:hover {
+    opacity: 85%;
+}
+
+.right-side td {
+    padding: 0 20px;
+}
+
+.right-side table, tr, th {
+    text-align: left;
+}
+
+.form-sec h2 {
+    text-align: center;
+}
+
+.form-sec {
+    display: none;
+}
+
+.form-block {
+    display: block;
+}
+
+.container-form {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.button-submit button {
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+    background-color: green;
+    color: aliceblue;
+    border: 1px solid green;
+}
+
+
+
+
